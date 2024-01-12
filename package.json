@@ -1,0 +1,47 @@
+{
+  "name": "landingpage",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\" --config .prettierrc && eslint --fix \"**/*.{ts,tsx}\"",
+    "preview": "vite preview",
+    "postinstall": "husky install"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "antd": "5.11.2",
+    "i18next": "23.7.6",
+    "react": "^18.2.0",
+    "react-dom": "18.2.0",
+    "react-i18next": "13.5.0",
+    "react-scroll": "^1.9.0",
+    "scroll": "^3.0.1",
+    "styled-components": "6.1.1",
+    "vite-plugin-pwa": "^0.17.2"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.37",
+    "@types/react-dom": "18.2.15",
+    "@types/react-scroll": "^1.8.10",
+    "@typescript-eslint/eslint-plugin": "6.10.0",
+    "@typescript-eslint/parser": "6.10.0",
+    "@vitejs/plugin-react": "4.2.0",
+    "eslint": "8.54.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-plugin-prettier": "5.0.1",
+    "eslint-plugin-react": "7.33.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-react-refresh": "0.4.4",
+    "eslint-plugin-unused-imports": "3.0.0",
+    "husky": "8.0.0",
+    "prettier": "3.1.0",
+    "sass": "1.69.5",
+    "typescript": "5.2.2",
+    "vite": "5.0.0"
+  },
+  "packageManager": "yarn@3.6.3"
+}

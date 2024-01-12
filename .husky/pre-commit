@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+all_files=$(git status --porcelain | grep M | awk '{print $2}')
+
+# Run format code
+yarn format

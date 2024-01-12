@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'PoppinsRegular';
+  src: url('./fonts/DesignerVN-Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+  font-family: 'PoppinsRegular';
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overscroll-behavior: none;
+}
+#root {
+  white-space: pre-line;
+}
